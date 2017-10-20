@@ -1,0 +1,198 @@
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" ng-repeat="img in imgs"><img ng-src="{{img.imgs}}" alt=""></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<ul class="sec-list">
+    <li>
+        <i class="fa fa-id-badge bg-danger"></i>
+        <span>车商城</span>
+    </li>
+    <li>
+        <i class="fa fa-bookmark bg-orange"></i>
+        <span>分期购车</span>
+    </li>
+    <li>
+        <i class="fa fa-calendar-o bg-purple"></i>
+        <span>团购活动</span>
+    </li>
+    <li>
+        <i class="fa fa-cloud-upload bg-blue"></i>
+        <span>找二手车</span>
+    </li>
+</ul>
+<div class="sec-banner">
+    <img src="./Content/img/banner_02.jpg" alt="">
+</div>
+<h4>车主服务</h4>
+<ul class="home-list">
+    <li ng-repeat="home in homes">
+        <img ng-src="{{home.img}}" alt="">
+        <span>{{home.con}}</span>
+    </li>
+</ul>
+<div class="fail">
+    <b>限时抢购</b>
+
+    <div class="time">
+        <p>13</p>
+        <span>:</span>
+
+        <p>13</p>
+        <span>:</span>
+
+        <p>13</p>
+    </div>
+</div>
+<div id="wrap">
+<div class="fail-list">
+    <dl class="fail-shop">
+        <dt>
+            <img src="Content/img/gua_65.jpg" alt="">
+        </dt>
+        <dd>
+            <b>补胎工具简易套装</b>
+
+            <p><b>￥9.9元</b><s>28元</s></p>
+        </dd>
+        <img src="Content/img/hot_62.jpg" alt="" class="fail-img">
+    </dl>
+    <dl class="fail-shop">
+        <dt>
+            <img src="Content/img/use_62.jpg" alt="">
+        </dt>
+        <dd>
+            <b>车用椅背挂钩</b>
+
+            <p><b>￥9.9元</b><s>28元</s></p>
+        </dd>
+        <img src="Content/img/hot_62.jpg" alt="" class="fail-img">
+    </dl>
+    <dl class="fail-shop">
+        <dt>
+            <img src="Content/img/gua_65.jpg" alt="">
+        </dt>
+        <dd>
+            <b>补胎工具简易套装</b>
+
+            <p><b>￥9.9元</b><s>28元</s></p>
+        </dd>
+        <img src="Content/img/hot_62.jpg" alt="" class="fail-img">
+    </dl>
+    <dl class="fail-shop">
+        <dt>
+            <img src="Content/img/gua_65.jpg" alt="">
+        </dt>
+        <dd>
+            <b>补胎工具简易套装</b>
+
+            <p><b>￥9.9元</b><s>28元</s></p>
+        </dd>
+        <img src="Content/img/hot_62.jpg" alt="" class="fail-img">
+    </dl>
+    <dl class="fail-shop">
+        <dt>
+            <img src="Content/img/gua_65.jpg" alt="">
+        </dt>
+        <dd>
+            <b>补胎工具简易套装</b>
+
+            <p><b>￥9.9元</b><s>28元</s></p>
+        </dd>
+        <img src="Content/img/hot_62.jpg" alt="" class="fail-img">
+    </dl>
+</div>
+</div>
+<div class="action">
+    <b>活动专区</b>
+
+    <div class="timer">
+        <p>更多活动</p>
+        <i class="fa fa-angle-right"></i>
+    </div>
+</div>
+<div class="action-list">
+    <dl class="action-shop">
+        <dd>
+            <b>测身价炫富</b>
+            <p>身价大PK</p>
+        </dd>
+        <dt>
+            <img src="Content/img/action_80.jpg" alt="">
+        </dt>
+    </dl>
+    <dl class="action-shop">
+        <dd>
+            <b>测身价炫富</b>
+            <p>身价大PK</p>
+        </dd>
+        <dt>
+            <img src="Content/img/action_74.jpg" alt="">
+        </dt>
+    </dl>
+    <dl class="action-shop">
+        <dd>
+            <b>全场0利率</b>
+            <p>购车无压力</p>
+        </dd>
+        <dt>
+            <img src="Content/img/action_77.jpg" alt="">
+        </dt>
+    </dl>
+</div>
+
+<div class="car">
+    <div class="action">
+        <b>猜你喜欢</b>
+        <div class="timer">
+            <p>更多活动</p>
+            <i class="fa fa-angle-right"></i>
+        </div>
+    </div>
+    <div class="car-list">
+         <dl class="car-shop"  ng-repeat="car in cars">
+             <dt>
+                 <img ng-src="{{car.img}}" alt="">
+             </dt>
+             <dd>
+                 <b>{{car.pos}}</b>
+                 <span>{{car.size}}</span>
+                 <p><b>{{car.price[0]}}</b><s>{{car.price[1]}}</s></p>
+             </dd>
+         </dl>
+    </div>
+</div>
+<div class="more">
+    <p class="load">点击加载更多</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

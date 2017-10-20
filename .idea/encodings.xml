@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/App/Controller" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/App/Directive" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/App/View" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/App/app.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Content/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Content/css/animate.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/css/common.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/css/font-awesome.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/css/reset.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/css/swiper.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Content/img/1.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/2.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/3.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/4.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/5.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/6.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/action_74.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/action_77.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/action_80.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/banner_02.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/car_100.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/car_89.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/car_92.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/car_97.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/gua_65.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_05.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_08.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_11.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_13.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_19.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_21.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_23.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_25.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_32.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_35.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_38.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/home_41.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/hot_62.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Content/img/use_62.jpg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Script/angular/angular-router.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Script/jquery" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

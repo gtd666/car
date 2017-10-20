@@ -1,0 +1,241 @@
+*
+  box-sizing: border-box
+body
+  position: absolute
+  top: 0
+  bottom: 0
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  font-size: .12rem
+  width: 100%
+.header
+  height: .45rem
+  text-align: center
+  position: relative
+  margin-bottom: 5px
+  &>i
+    position: absolute
+    top: .15rem
+    right: .15rem
+    font-size: .2rem
+.list
+  width: 40%
+  height: .45rem
+  line-height: .45rem
+  margin-left: auto
+  margin-right: auto
+  display: flex
+  align-items: center
+  &>li
+    flex: 1
+    height: 100%
+    text-align: center
+    font-size: .16rem
+  .active
+    font-weight: bold
+    border-bottom: 1px solid #000
+
+.section
+  overflow-y: scroll
+  flex: 1
+.swiper-container
+  width: 100%
+  height: 1.25rem
+.swiper-wrapper
+  width: 100%
+  height: 1.25rem
+.swiper-slide
+  width: 100%
+  height: 100%
+  &>img
+    width: 100%
+    height: 1.25rem
+.sec-list
+  width: 100%
+  height: 1rem
+  display: flex
+  justify-content: center
+  align-items: center
+  &>li
+    flex: 1
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-around
+    &>i
+      width: .5rem
+      height: .5rem
+      line-height: .5rem
+      text-align: center
+      border-radius: .2rem
+      color: #fff
+      font-size: .2rem
+.sec-banner
+  width: 100%
+  height: .85rem
+  &>img
+    width: 100%
+    height: 100%
+h4
+  width: 100%
+  height: .45rem
+  line-height: .45rem
+  font-size: .16rem
+  padding-left: .1rem
+.home-list
+  width: 100%
+  height: 2.56rem
+  display: flex
+  flex-wrap: wrap
+  border-top: 1px solid #ccc
+  &>li
+    width: 25%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    border-right: 1px solid #ccc
+    border-bottom: 1px solid #ccc
+    &>img
+      width: .4rem
+      height: .4rem
+      margin-bottom: .1rem
+.fail,.action
+  height: .45rem
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &>b
+    margin-left: .1rem
+  &>.time
+    display: flex
+    margin-right: .1rem
+    &>p
+      width: .3rem
+      height: .3rem
+      line-height: .3rem
+      text-align: center
+      background-color: #000
+      opacity: .5
+      color: #fff
+    &>span
+      font-size: .18rem
+      padding-left: 6px
+      padding-right: 6px
+.wrap
+  width: 100%
+  height: 1.5rem
+  position: absolute
+  overflow: hidden
+.fail-list
+  width: 1000px
+.fail-list,.action-list
+  height: 1.5rem
+  display: flex
+.fail-shop,.action-shop
+    width: 1.65rem
+    height: 1.48rem
+    border: 1px solid #ccc
+    margin-left: .1rem
+    margin-right: .1rem
+    padding: .1rem
+    position: relative
+    &>dt img
+      width: 1.06rem
+      height: .95rem
+    &>dd>p
+      display: flex
+      margin-top: .03rem
+      &>b
+        color: orange
+      &>s
+        margin-left: .3rem
+.action-shop
+  width: 0
+  height: 1.48rem
+  flex: 1
+  padding: .1rem
+  margin-left: 0
+  margin-right: 0
+  border-left: none
+  text-align: center
+  &>dd>b
+    font-size: .16rem
+  &>dd>p
+    color: orange
+    margin-top: 5px
+.timer,.car-head
+  display: flex
+  align-items: center
+  margin-right: .1rem
+  &>i
+    font-size: .18rem
+    margin-left: .1rem
+.fail-img
+  position: absolute
+  top: 0
+  left: 0
+  width: .5rem
+  height: .35rem
+.car-list
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  border-top: 1px solid #ccc
+.car-shop
+  width: 50%
+  height: 2.4rem
+  display: flex
+  padding: .15rem
+  flex-direction: column
+  justify-content: space-around
+  align-items: center
+  border-right: 1px solid #ccc
+  border-bottom: 1px solid #ccc
+  &>dt
+    width: 1.23rem
+    height: .85rem
+    &>img
+      width: 100%
+      height: 100%
+  &>dd
+    display: flex
+    flex-direction: column
+    &>b
+      font-size: .16rem
+      margin-bottom: .15rem
+    &>span
+      color: #ccc
+    &>p
+      display: flex
+      align-items: center
+      margin-top: .15rem
+      &>b
+        color: orange
+        font-size: .18rem
+      &>s
+        color: #ccc
+        margin-left: .15rem
+.more
+  width: 100%
+  height: .45rem
+  line-height: .45rem
+  text-align: center
+.footer
+  height: .45rem
+  .footer-list
+    width: 100%
+    height: 100%
+    display: flex
+    &>li
+      flex: 1
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      &>i
+        font-size: .18rem
+        margin-bottom: 5px
+.on
+  color: blue
